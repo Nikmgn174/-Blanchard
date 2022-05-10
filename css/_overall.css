@@ -1,0 +1,117 @@
+.container {
+    position: relative;
+    max-width: 1700px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/* Исчезание placeholder'а */
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+
+/* FF 4-18 */
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+
+/* FF 19+ */
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+/* Стрелки в input:number */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Это для браузера Firefox: */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+/* Для других */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* IE 10+ */
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.section-offset {
+    margin-bottom: 80px;
+}
+
+.section-offset:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.section-descr {
+    margin: 0;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+    .section-offset {
+        margin-bottom: 50px;
+    }
+    .section-title {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    .section-descr {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

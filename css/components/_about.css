@@ -1,0 +1,20 @@
+.about {
+    margin-bottom: 69px;
+}
+
+.about__title {
+    margin-bottom: 22px;
+}
+
+.about__descr {
+    max-width: 1080px;
+}
+
+@media (max-width: 576px) {
+    .about {
+        margin-bottom: 41px;
+    }
+    .about__title {
+        margin-bottom: 13px;
+    }
+}

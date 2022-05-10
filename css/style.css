@@ -1,0 +1,25 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_global.css";
+@import "_overall.css";
+
+/* plugins */
+
+@import "../libs/simplebar.css";
+@import "../libs/swiper-bundle.min.css";
+@import "../libs/choices.min.css";
+
+/*** blocks ***/
+
+@import "components/_header.css";
+@import "components/_hero.css";
+@import "components/_about.css";
+@import "components/_gallery.css";
+@import "components/_catalog.css";
+@import "components/_events.css";
+@import "components/_editions.css";
+@import "components/_projects.css";
+@import "components/_contacts.css";
+@import "components/_footer.css";
+@import "components/_modal.css";
